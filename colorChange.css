@@ -1,0 +1,33 @@
+h1{
+    letter-spacing: 10px;
+}
+
+#rgbBox{
+    height: 100%;
+    background-color: rgb(36, 31, 31);
+    display: flex;
+    max-width: 600px;
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#rgbBox h3{
+    font-variant: small-caps;
+    font-size: 3vh;
+}
+
+#szinskalaBox{
+    height: 100%;
+    background-color: rgb(36, 31, 31);
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+}
+
+#szinvalasztoBox{
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px;
+}

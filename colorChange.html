@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Színválasztó</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="colorChange.css">
+</head>
+<body>
+    
+    <h1 class="text-center my-5 bg-dark text-light p-3">Színválasztó</h1>
+
+    <div class="row container" id="szinvalasztoBox">
+        <div class= "col-6">
+            <section class="container" id="szinskalaBox">
+        
+                <div class="form-group">
+                    <label for="redSet">Piros (red)</label>
+                    <input type="range" id="redSet" class="form-control" min="0" max="255" value="0">
+                    <p id="redValue">0</p>
+                </div>
+        
+                <div class="form-group">
+                    <label for="greenSet">Zöld (green)</label>
+                    <input type="range" id="greenSet" class="form-control" min="0" max="255" value="0">
+                    <p id="greenValue">0</p>
+                </div>
+        
+                <div class="form-group">
+                    <label for="blueSet">Kék (blue)</label>
+                    <input type="range" id="blueSet" class="form-control" min="0" max="255" value="0">
+                    <p id="blueValue">0</p>
+                </div>
+        
+            </section>
+        </div>
+    
+    
+       <div class="col-6">
+            <section class="container" id="rgbBox">
+                <h3 id="rgbValue">rgb(0,0,0)</h3>
+            </section>
+       </div>
+
+
+    </div>
+
+    <script src="colorChange.js"></script>
+</body>
+</html>
